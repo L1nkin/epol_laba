@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-            <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
     <p>Массив первый(элементы пишутся через 1 пробел)</p>
-    <input id = "firstArray" type = "text"><br> 
+    <input id="firstArray" type="text"><br>
     <p>Массив вотрой(элементы пишутся через 1 пробел)</p>
-    <input id = "secondArray" type = "text"><br>
-    <button id = "execute"> Выполнить </button>
+    <input id="secondArray" type="text"><br>
+    <button id="execute"> Выполнить </button>
     <div id="result"> Ответ будет выден здесь!</div>
-    <script>
-        function epol() {
-            let arr1 = document.getElementById('firstArray').value.split(' ');
-            let arr2 = document.getElementById('secondArray').value.split(' ');
-            let newArray = arr1.map(function (value) {
-                if (arr2.indexOf(value) == -1)
-                    value = 0;
-                else value = 1;
-                return value;
-            });
-            document.getElementById('result').innerHTML = newArray.join('');
-            
-        }
-        document.getElementById('execute').addEventListener('click', epol);
-    </script>
+    <script src ="js.js"></script>
 </body>
 
 </html>
