@@ -9,6 +9,12 @@ button {
 
 
 
+button:hover{
+    background-color: rgb(0, 155, 0);
+}
+
+
+
 #result{
     text-align: center;
     font-size: 50px;
