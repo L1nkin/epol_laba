@@ -1,7 +1,7 @@
 function epol()
 {
-    let arr1 = document.getElementById('firstArray').value.split(' ');
-    let arr2 = document.getElementById('secondArray').value.split(' ');
+    let arr1 = document.getElementById('firstArray').value.split(' ').splice(0, 8);
+    let arr2 = document.getElementById('secondArray').value.split(' ').splice(0, 8);
     let newArray = arr1.map(function(value) {
         if (arr2.indexOf(value) == -1)
             value = 0;
