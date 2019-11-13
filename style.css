@@ -7,63 +7,51 @@ button {
     font-size: 30px;
 }
 
-
-
-button:hover{
+button:hover {
     background-color: rgb(87, 87, 87);
 }
 
-
-body{
-
+body {
     text-align: center;
-    background-color: rgb(255, 255, 255);;
-    margin-left:20%;
+    background-color: rgb(255, 255, 255);
+    ;
+    margin-left: 20%;
     height: 1920px;
-    
 }
 
-
-
-#container{
-    background-color: rgb(189, 189, 189);
+#container {
+    background-color: rgb(207, 207, 207);
     opacity: 0.7;
 }
-#result{
+
+#result {
     text-align: center;
     font-size: 50px;
-    color: rgb(7, 190, 7);
 }
 
-
-
-input{
+input {
     width: 60%;
     height: 40px;
     font-size: 20px;
 }
 
-
-
-p{
+p {
     font-family: monospace;
     font-size: 20px;
 }
 
-
-
-#error{
+#error1 {
     font-size: 30px;
 }
 
-
-
-#complet{
-    font-size: 30px; 
+#error2 {
+    font-size: 30px;
 }
 
+#complet {
+    font-size: 30px;
+}
 
-
-#container{
-    width:1080px;
+#container {
+    width: 1080px;
 }
