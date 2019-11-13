@@ -2,21 +2,32 @@ button {
     margin: 5px 5px 5px 20px;
     width: 30%;
     height: 50px;
-    border-radius: 10px;
-    background-color: rgb(7, 190, 7);
+    border: 0px;
+    background-color: rgb(153, 153, 153);
     font-size: 30px;
 }
 
 
 
 button:hover{
-    background-color: rgb(0, 155, 0);
+    background-color: rgb(87, 87, 87);
 }
 
 
 body{
+
     text-align: center;
-    background: url(background.jpg);
+    background-color: rgb(255, 255, 255);;
+    margin-left:20%;
+    height: 1920px;
+    
+}
+
+
+
+#container{
+    background-color: rgb(189, 189, 189);
+    opacity: 0.7;
 }
 #result{
     text-align: center;
@@ -27,7 +38,7 @@ body{
 
 
 input{
-    width: 50%;
+    width: 60%;
     height: 40px;
     font-size: 20px;
 }
@@ -49,4 +60,10 @@ p{
 
 #complet{
     font-size: 30px; 
+}
+
+
+
+#container{
+    width:1080px;
 }
